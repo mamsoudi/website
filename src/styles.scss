@@ -1,0 +1,27 @@
+@import "./styles/reset";
+
+body {
+  cursor: none;
+  background-color: #00e0ff;
+  background-image:  linear-gradient(135deg, #064fb1 25%, transparent 25%), linear-gradient(225deg, #064fb1 25%, transparent 25%), linear-gradient(45deg, #064fb1 25%, transparent 25%), linear-gradient(315deg, #064fb1 25%, #00e0ff 25%);
+  background-position:  14px 0, 14px 0, 0 0, 0 0;
+  background-size: 28px 28px;
+  background-repeat: repeat;
+  opacity: 1;
+  font-family: sans-serif;
+}
+
+.curtain {
+  background: radial-gradient(
+    circle at var(--mouseX) var(--mouseY),
+    rgba(0, 0, 0, 0.4) 0vmax,
+    rgba(0, 0, 0, 0.5) 3vmax,
+    rgba(0, 0, 0, 0.6) 4.5vmax,
+    rgba(0, 0, 0, 0.7) 5vmax,
+    rgba(0, 0, 0, 0.8) 7.5vmax,
+    rgba(0, 0, 0, 0.9) 9vmax,
+    rgba(0, 0, 0, 1) 15vmax
+  );
+  width: 100vw;
+  height: 100vh;
+}
